@@ -1,0 +1,45 @@
+<!-- File: contact/index.html  (Contact Page) -->
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+       <meta charset="utf-8">
+       <title>Contact – Nick’s Steam Library Hub</title>
+     </head>
+     <body bgcolor="lightyellow">
+       <nav>
+         <a href="../index.html">Home</a> |
+         <a href="../about/">About Me</a> |
+         <a href="index.html">Contact</a> |
+         <a href="../gallery/screenshots.html">Screenshots</a> |
+         <a href="../tierlist/">Tier List</a>
+       </nav>
+       <hr>
+       <h1><font color="darkred">Contact Me</font></h1>
+     
+       <p>You can reach me through the form below or visit my <a href="https://steamcommunity.com/id/Salsified" target="_blank">Steam profile</a>.</p>
+     
+       <!-- Contact form: opens user’s email client on submit (mailto)
+            Please do not actually use this.                    -->
+       <form action="mailto:purplenico2@gmail.com" method="GET">
+         <label for="name">Your Name:</label><br>
+         <input type="text" id="name" name="name" required><br><br>
+     
+         <label for="email">Your Email:</label><br>
+         <input type="email" id="email" name="email" required><br><br>
+     
+         <label for="message">Message:</label><br>
+         <textarea id="message" name="body" rows="6" cols="40" required></textarea><br><br>
+     
+         <!-- subject parameter pre‑fills email subject line -->
+         <input type="hidden" name="subject" value="Steam Library Website Inquiry">
+     
+         <input type="submit" value="Send Email">
+       </form>
+     
+       <footer>
+         <hr>
+         <p><a href="../index.html">&larr; Back to Home</a></p>
+       </footer>
+     </body>
+     </html>
+     
